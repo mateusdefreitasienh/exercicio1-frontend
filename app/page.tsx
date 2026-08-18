@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Input from "@/components/input"
 import PostCard from "@/components/postCard"
+import Button from "@/components/button"
+import Singinform from "@/components/SingInForm";
 
 export default function Home() {
   return (
