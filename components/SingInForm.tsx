@@ -13,7 +13,7 @@ export default function Singinform() {
                 <Button cor="white" corText="blue" corBorda="blue">Entrar</Button>
                 <Button cor="blue" corText="white" corBorda="blue">Criar Conta</Button>
                 <div style={{display:"flex", gap:"12px"}}>
-                    <p style={{ fontSize: "1.2rem",margin: "0",marginLeft:"12px" }}>Esqueceu sua senha?</p> <a href="" style={{ fontSize: "1.2rem" }}>Recupere agr</a>
+                    <p style={{ fontSize: "1.2rem",margin: "0",marginLeft:"12px" }}>Esqueceu sua senha?</p> <a href="" style={{ fontSize: "1.2rem", color: "blue" }}>Recupere agora</a>
                 </div>
 
             </div>
