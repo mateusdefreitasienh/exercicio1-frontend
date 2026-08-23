@@ -6,7 +6,7 @@ export default function Home() {
 
     return (
         <div>
-            <TitleDescription></TitleDescription>
+            <TitleDescription title="Titulo aqui"description="Descrição aqui" />
             <Button cor="white" corText="blue" corBorda="blue"> Um Botão</Button>
             <Input />
         </div>
