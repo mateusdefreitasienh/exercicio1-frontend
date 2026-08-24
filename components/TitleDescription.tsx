@@ -22,7 +22,7 @@ export default function TitleDescription(props: {
             </h1>
 
             <p 
-            stule={{
+            style={{
                 fontSize: "18px",
                 color: "gray",
                 margin: "0"

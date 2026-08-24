@@ -80,13 +80,13 @@ export default function PersonalData(props) {
             
                 <button style={{
                     width:"100%",
-                    height: "100px",
+                    height: "50px",
                     backgroundColor: "white",
                     border: "3px solid",
                     borderRadius: "9px",
                     fontSize: "20px"
 
-                }}>Botao</button>
+                }}>Enviar</button>
 
         </div>
     )
