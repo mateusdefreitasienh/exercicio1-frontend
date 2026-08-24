@@ -1,7 +1,4 @@
-export default function TitleDescription(props: {
-    title: string;
-    description: string;
-}) {
+export default function TitleDescription(props) {
     return(
         <div 
         style={{

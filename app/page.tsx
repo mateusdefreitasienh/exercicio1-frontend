@@ -1,28 +1,12 @@
-import Image from "next/image";
-import Input from "@/components/input"
-import PostCard from "@/components/postCard"
-import Button from "@/components/button"
-import Singinform from "@/components/SingInForm";
+import Link from 'next/link';
+
 
 export default function Home() {
   return (
     <div>
-      <h1>Mateus</h1>
-      <Input>Teste</Input>
-
-      <PostCard
-        image="https://upload.wikimedia.org/wikipedia/en/5/5f/Original_Doge_meme.jpg"
-        authorPicture="https://upload.wikimedia.org/wikipedia/en/5/5f/Original_Doge_meme.jpg"
-        tagsA="Tag A"
-        tagsB="Tag B"
-        tagsC="Tag C"
-        dateText="14, may, 2021"
-        title="Title here"
-        subtitle="Subtitle here"
-        likes="34"
-        views="4"
-        comments="5"
-      />
+      <div><Link href="/exemplo/basico">Exemplo Basico</Link></div>
+      <div><Link href="/exemplo/avancado">Exemplo Avancado</Link></div>
+      <div><Link href="/entrar">Entrar</Link></div>
     </div>
   );
 }
